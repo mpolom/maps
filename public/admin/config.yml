@@ -1,6 +1,6 @@
 backend:
   name: github
-  branch: main
+  branch: gh-pages
   repo: "mpolom/maps-archive"
   base_url: "https://decap-proxy.michaelpolom.workers.dev"
   api_root: "https://api.github.com"
