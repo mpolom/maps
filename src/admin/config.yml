@@ -4,7 +4,7 @@ backend:
   repo: "mpolom/maps-archive"
   base_url: "https://decap-proxy.michaelpolom.workers.dev"
   api_root: "https://api.github.com"
-  site_domain: localhost:8080
+  #site_domain: localhost:8080
   auth_endpoint: /auth
   commit_messages:
     create: Create {{collection}} “{{slug}}”
@@ -14,7 +14,7 @@ backend:
     deleteMedia: Delete “{{path}}”
     openAuthoring: '{{message}}'
 
-site_url: https://bichael.uk/maps
+site_url: https://mpolom.github.io/maps/
 
 media_folder: assets/uploads
 
