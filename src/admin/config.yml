@@ -1,5 +1,9 @@
 backend:
   name: maps
+  branch: main
+  repo: "mpolom/maps-archive"
+  base_url: "https://decap-proxy.michaelpolom.workers.dev"
+  auth_endpoint: /auth
   commit_messages:
     create: Create {{collection}} “{{slug}}”
     update: Update {{collection}} “{{slug}}”
