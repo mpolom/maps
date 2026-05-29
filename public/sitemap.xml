@@ -12,8 +12,44 @@
     
             
             <url>
-                <loc>https://www.example.com/admin/</loc>
-                <lastmod>2026-05-28T17:19:23.235Z</lastmod>
+                <loc>https://www.example.com/maps/lakeland-cycle-routes/</loc>
+                <lastmod>2026-05-29T08:53:46.167Z</lastmod>
+                <changefreq>monthly</changefreq>
+            </url>
+            
+        
+    
+            
+            <url>
+                <loc>https://www.example.com/maps/historic-city-walking-map/</loc>
+                <lastmod>2026-05-29T08:56:20.539Z</lastmod>
+                <changefreq>monthly</changefreq>
+            </url>
+            
+        
+    
+            
+            <url>
+                <loc>https://www.example.com/maps/coastal-hiking-trails/</loc>
+                <lastmod>2026-05-29T08:56:20.592Z</lastmod>
+                <changefreq>monthly</changefreq>
+            </url>
+            
+        
+    
+            
+            <url>
+                <loc>https://www.example.com/maps/vintage-tourist-road-map/</loc>
+                <lastmod>2026-05-29T08:56:20.648Z</lastmod>
+                <changefreq>monthly</changefreq>
+            </url>
+            
+        
+    
+            
+            <url>
+                <loc>https://www.example.com/maps/national-park-topographic-map/</loc>
+                <lastmod>2026-05-29T08:56:20.684Z</lastmod>
                 <changefreq>monthly</changefreq>
             </url>
             

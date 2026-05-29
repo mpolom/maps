@@ -1,0 +1,16 @@
+---
+layout: base.njk
+---
+<ul>
+    <li>{{year}}</li>
+    <li>{{publisher}}</li>
+    <ul>
+        {%for theme in themes %}
+        <li>{{theme}}</li>
+        {% endfor %}
+    </ul>
+</ul>
+
+<section class="map-page">
+  {{ content | safe }}
+</section>

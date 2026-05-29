@@ -1,0 +1,20 @@
+---
+title: Maps archive
+layout: base.njk
+---
+<ul>
+  {%- for map in collections.maps %}
+    <li>
+        <ul>
+            <li><a href="{{map.url}}">{{map.data.title}}</a></li>
+            <li>{{map.data.year}}</li>
+            <li>{{map.data.publisher}}</li>
+            <ul>
+                {%for theme in map.data.themes %}
+                <li>{{theme}}</li>
+                {% endfor %}
+            </ul>
+        </ul>
+    </li>
+  {%- endfor -%}
+</ul>

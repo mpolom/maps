@@ -6,10 +6,11 @@
     <title>{{ title }}</title>
     <meta name="description" content="{{ description }}" />
     <link rel="shortcut icon" href="/favicon.png" />
-    {% set css -%}{% include "site.css" %}{% endset -%}<style>{{ css | cssmin | safe }}</style>
+    {% set css -%}{% include "fonts.css" %}{% include "site.css" %}{% endset -%}<style>{{ css | cssmin | safe }}</style>
   </head>
   <body>
     <header>
+      <a href="/" class="home-link">take me home</a>
     </header>
     <main>
       <h1>{{ title }}</h1>

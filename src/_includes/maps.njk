@@ -1,0 +1,17 @@
+---
+title: {{maps.data.title}}
+tags: maps
+layout: base.njk
+---
+  {%- for map in collections.maps %}
+        <ul>
+            <li><a href="{{map.data.url}}">{{map.data.title}}</a></li>
+            <li>{{map.data.year}}</li>
+            <li>{{map.data.publisher}}</li>
+            <ul>
+                {%for theme in map.data.themes %}
+                <li>{{theme}}</li>
+                {% endfor %}
+            </ul>
+        </ul>
+  {%- endfor -%}
