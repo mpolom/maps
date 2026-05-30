@@ -6,14 +6,16 @@ layout: base.njk
   {%- for map in collections.maps %}
     <li class="map-list-item">
         <ul>
-            <li><a href="{{map.url}}"><h3>{{map.data.title}}</h3></a></li>
-            <li>{{map.data.year}}</li>
-            <li>{{map.data.publisher}}</li>
-            <ul>
-                {%for theme in map.data.themes %}
-                <li>{{theme}}</li>
-                {% endfor %}
-            </ul>
+            <li class="map-title"><a href="{{map.url}}"><h3>{{map.data.title}}</h3></a></li>
+            <li class="map-year">{{map.data.year}}</li>
+            <li class="map-publisher">Published by {{map.data.publisher}}</li>
+            <li>Themes:
+              <ul class="map-themes">
+                  {%for theme in map.data.themes %}
+                  <li class="map-theme">{{theme}}</li>
+                  {% endfor %}
+              </ul>
+            </li>
         </ul>
     </li>
   {%- endfor -%}

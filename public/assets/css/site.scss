@@ -76,10 +76,27 @@ ul.map-list {
   gap: 1rem;
   li {
     background-color: var(--colour5);
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0;
     border-radius: 0.25rem;
     color: var(--colour1);
     font-size: 0.875rem;
+  }
+  .map-year {
+    padding-top: 0;
+  }
+  .map-themes {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.5rem;
+    justify-content: space-around;
+    padding: 0.25rem;
+    margin: 0;
+    .map-theme {
+      flex-grow: 4;
+      width: 100px;
+      border: 1px solid var(--colour1);
+      text-align: center;
+    }
   }
 }
 
