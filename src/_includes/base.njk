@@ -6,11 +6,17 @@
     <title>{{ title }}</title>
     <meta name="description" content="{{ description }}" />
     <link rel="shortcut icon" href="/favicon.png" />
-    {% set css -%}{% include "fonts.css" %}{% include "site.css" %}{% endset -%}<style>{{ css | cssmin | safe }}</style>
+    <link rel="stylesheet" href="/assets/css/fonts.css" />
+   <link rel="stylesheet" href="/assets/css/site.css" />
   </head>
   <body>
     <header>
-      <a href="/" class="home-link">take me home</a>
+      <nav role="navigation" aria-label="Main navigation" class="main-nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/maps/">Maps</a></li>
+          <li><a href="/about/">About</a></li>
+        </ul>
     </header>
     <main>
       <h1>{{ title }}</h1>

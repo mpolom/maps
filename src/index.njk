@@ -2,11 +2,11 @@
 title: Maps archive
 layout: base.njk
 ---
-<ul>
+<ul class="map-list">
   {%- for map in collections.maps %}
-    <li>
+    <li class="map-list-item">
         <ul>
-            <li><a href="{{map.url}}">{{map.data.title}}</a></li>
+            <li><a href="{{map.url}}"><h3>{{map.data.title}}</h3></a></li>
             <li>{{map.data.year}}</li>
             <li>{{map.data.publisher}}</li>
             <ul>
